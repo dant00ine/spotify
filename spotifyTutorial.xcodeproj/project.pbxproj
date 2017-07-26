@@ -18,7 +18,7 @@
 		C06C8E771F267395006D886A /* SpotifyAudioPlayback.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C06C8E741F267395006D886A /* SpotifyAudioPlayback.framework */; };
 		C06C8E781F267395006D886A /* SpotifyAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C06C8E751F267395006D886A /* SpotifyAuthentication.framework */; };
 		C06C8E791F267395006D886A /* SpotifyMetadata.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C06C8E761F267395006D886A /* SpotifyMetadata.framework */; };
-		C06C8E831F26C45B006D886A /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = C06C8E821F26C45B006D886A /* Song.swift */; };
+		C06C8E831F26C45B006D886A /* AudioStreamingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C06C8E821F26C45B006D886A /* AudioStreamingController.swift */; };
 		C06C8E851F26C5C7006D886A /* Playlist.swift in Sources */ = {isa = PBXBuildFile; fileRef = C06C8E841F26C5C7006D886A /* Playlist.swift */; };
 /* End PBXBuildFile section */
 
@@ -37,7 +37,7 @@
 		C06C8E751F267395006D886A /* SpotifyAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SpotifyAuthentication.framework; sourceTree = "<group>"; };
 		C06C8E761F267395006D886A /* SpotifyMetadata.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SpotifyMetadata.framework; sourceTree = "<group>"; };
 		C06C8E7B1F267434006D886A /* spotifyTutorial-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "spotifyTutorial-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
-		C06C8E821F26C45B006D886A /* Song.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
+		C06C8E821F26C45B006D886A /* AudioStreamingController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioStreamingController.swift; sourceTree = "<group>"; };
 		C06C8E841F26C5C7006D886A /* Playlist.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Playlist.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -106,6 +106,7 @@
 		C06C8E7F1F26C430006D886A /* controllers */ = {
 			isa = PBXGroup;
 			children = (
+				C06C8E821F26C45B006D886A /* AudioStreamingController.swift */,
 				C0178CB71F266F9C00BD1448 /* HomeViewController.swift */,
 			);
 			name = controllers;
@@ -114,7 +115,6 @@
 		C06C8E801F26C435006D886A /* models */ = {
 			isa = PBXGroup;
 			children = (
-				C06C8E821F26C45B006D886A /* Song.swift */,
 				C06C8E841F26C5C7006D886A /* Playlist.swift */,
 			);
 			name = models;
@@ -201,7 +201,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C06C8E831F26C45B006D886A /* Song.swift in Sources */,
+				C06C8E831F26C45B006D886A /* AudioStreamingController.swift in Sources */,
 				C0178CBE1F266F9C00BD1448 /* spotifyTutorial.xcdatamodeld in Sources */,
 				C0178CB81F266F9C00BD1448 /* HomeViewController.swift in Sources */,
 				C0178CB61F266F9C00BD1448 /* AppDelegate.swift in Sources */,
